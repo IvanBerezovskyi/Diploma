@@ -1,0 +1,23 @@
+@relation 'accidents'
+
+@attribute accidentTime 	        numeric
+@attribute day_of_week              numeric
+@attribute driver_age_group         numeric
+@attribute driver_gender	        numeric
+@attribute driver_experience        numeric
+@attribute vehicle_type             numeric
+@attribute vehicle_defected         numeric
+@attribute road_alignment           numeric
+@attribute road_surface_type        numeric
+@attribute road_surface_condition   numeric
+@attribute light_condition          numeric
+@attribute weather_condition        numeric
+@attribute collision_type           numeric
+@attribute vehicles_number          numeric
+@attribute casualties_number        numeric
+@attribute vehicle_movement         numeric
+@attribute collision_cause          numeric
+@attribute accident_severity        {0, 1, 2}
+
+@data
+10,4,2,0,4,2,0,0,0,0,0,5,0,2,0,0,5,0
